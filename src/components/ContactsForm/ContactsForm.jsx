@@ -14,7 +14,7 @@ export const ContactsForm = ({ addNewContact }) => {
 
   return (
     <FormContainer>
-      <Title>Phonebook</Title>
+      {/* <Title>Phonebook</Title> */}
       <Formik initialValues={{ name: '', number: '' }} onSubmit={handleSubmit}>
         {({ values, handleChange }) => (
           <Form>
