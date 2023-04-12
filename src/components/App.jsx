@@ -48,7 +48,7 @@ function App() {
   return (
     <>
       <Container>
-        <Title>Phonebook</Title>
+        {/* <Title>Phonebook</Title> */}
         <ContactsForm addNewContact={handleAddNewContact} />
       </Container>
       <Container>
